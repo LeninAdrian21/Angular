@@ -1,0 +1,132 @@
+<!-- <mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar> -->
+<!-- <mat-sidenav-container fullscreen>
+  <mat-sidenav #sidenav>
+    <h1>Hola</h1>
+  </mat-sidenav>
+  <mat-toolbar>
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon class="mat-18">menu</mat-icon>
+    </button>
+
+  </mat-toolbar>
+</mat-sidenav-container> -->
+
+
+
+
+<!-- <nav>
+  <mat-toolbar>
+
+    <div class="container-fluid" >
+      <a href="#" class="nav-brand text-info fw-semibold fs-4">Opcion 1</a>
+      <button mat-icon-button data-bs-toggle="offcanvas" data-bs-target="#menu">
+        <mat-icon class="mat-18">menu</mat-icon>
+      </button>
+      <section class="offcanvas offcanas-start bg-dark" id="menu" tabindex="-1">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+    </div>
+  </mat-toolbar>
+
+</nav> -->
+<!-- <mat-toolbar> -->
+<!-- MENU START  -->
+<mat-toolbar>
+  <nav>
+    <!-- NAV CONTAINER START -->
+    <div class="container-fluid">
+      <button mat-icon-button data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+        <mat-icon class="mat-18">menu</mat-icon>
+      </button>
+      <span>MAVB</span>
+
+      <!-- NAV BUTTON  -->
+      <!-- OFFCANVAS MAIN CONTAINER START -->
+      <section class="offcanvas offcanvas-start bg-secondary w-18 " id="menuLateral" tabindex="-1">
+        <mat-toolbar class="offcanvas-header " data-bs-theme="grey">
+          <!-- <div class="rounded-circle bg-info m-auto t-2"></div> -->
+          <span class="m-auto">Mavb</span>
+          <button mat-icon-button data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+              <mat-icon>close</mat-icon>
+          </button>
+        </mat-toolbar>
+        <mat-nav-list>
+
+          <a href="" mat-list-item>Publications </a>
+          <a href="" mat-list-item>Music</a>
+          <a href="" mat-list-item>Videos</a>
+          <a href="" mat-list-item>Books</a>
+        </mat-nav-list>
+
+        <!-- OFF CANVAS MENU LINKS  START-->
+        <!-- <div
+          class="offcanvas-body d-flex flex-column justify-content-between px-0"
+        >
+          <ul class="navbar-nav fs-5 justify-content-evenly">
+            <li class="nav-item p-3 py-md-1">
+              <a href="" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item p-3 py-md-1">
+              <a href="" class="nav-link">PROJECTS</a>
+            </li>
+            <li class="nav-item p-3 py-md-1">
+              <a href="" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item p-3 py-md-1">
+              <a href="" class="nav-link">CONTACT</a>
+            </li>
+          </ul> -->
+          <!-- enlaces redes sociales -->
+
+          <!-- <div class="d-lg-none align-self-center py-3">
+            <a href=""><i class="bi bi-twitter px-2 text-info fs-2"></i></a>
+            <a href=""><i class="bi bi-facebook px-2 text-info fs-2"></i></a>
+            <a href=""><i class="bi bi-github px-2 text-info fs-2"></i></a>
+            <a href=""><i class="bi bi-whatsapp px-2 text-info fs-2"></i></a>
+          </div> -->
+        <!-- </div> -->
+      </section>
+      <!-- OFFCANVAS MAIN CONTAINER END  -->
+    </div>
+  </nav>
+</mat-toolbar>
+
+<!-- </mat-toolbar> -->
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
